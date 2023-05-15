@@ -26,6 +26,7 @@ public class MytheresaMyAccountPage {
 		public MytheresaMyAccountPage(WebDriver driver) {
 			this.driver = driver;
 			PageFactory.initElements(driver, this);
+			System.out.println("my account");
 		}
 		
 		public WebElement changePassLinkPath() {
