@@ -25,6 +25,7 @@ public class MytheresaWishListPage {
 	public MytheresaWishListPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("venkat");
 	}
 	
 	public WebElement newArrivalListPath() {
